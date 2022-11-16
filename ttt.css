@@ -1,0 +1,54 @@
+body{
+    position: fixed;
+    display: flex;
+    margin: 0;
+}
+.cubs{
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    line-height: 75px;
+    font-size: 50px;
+    cursor: pointer;
+    color: rgb(221, 255, 244);
+   
+    
+}
+.container{
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    position: absolute;
+    z-index: 1;
+    color: rgb(221, 255, 244);
+    margin-left: 12cm;
+    margin-top: 2cm;
+    
+    
+}
+.game{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 225px;
+    margin: auto;
+
+
+}
+.full_video{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.full_video video {
+    z-index: inherit;
+    position: relative;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
